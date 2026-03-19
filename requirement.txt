@@ -1,8 +1,18 @@
-pandas>=1.5.0
-numpy>=1.23.0
-statsmodels>=0.14.0
-lightgbm>=3.3.0
-scikit-learn>=1.2.0
-matplotlib>=3.7.0
-shap>=0.42.0
-openpyxl>=3.1.0
+# --- 核心数据处理与机器学习 (与训练环境对齐) ---
+pandas==2.0.3
+numpy==1.24.3
+openpyxl==3.1.2
+joblib==1.2.0
+lightgbm==3.3.5
+
+# --- 网页展示框架 ---
+streamlit==1.24.0
+
+# --- RAG 与 向量数据库 (保持 LangChain 生态兼容) ---
+langchain==0.0.267
+langchain-community==0.0.10
+chromadb==0.4.10
+sentence-transformers==2.2.2
+
+# --- 辅助工具 ---
+python-dotenv==1.0.0
